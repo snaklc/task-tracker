@@ -1,22 +1,16 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Go Doctor",
-      "day": "5 February",
-      "reminder": true
+      "text": "Go to the mall",
+      "day": "4 Feb",
+      "reminder": true,
+      "id": 4
     },
     {
-      "id": 2,
-      "text": "Go grocery store",
-      "day": "5 February",
-      "reminder": true
-    },
-    {
-      "id": 3,
-      "day": "5 February",
-      "text": "Do laundry",
-      "reminder": false
+      "text": "Go shopping",
+      "day": "5 Feb",
+      "reminder": true,
+      "id": 5
     }
   ]
 }

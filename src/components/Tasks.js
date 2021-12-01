@@ -6,8 +6,8 @@ export const Tasks = ({ tasks, showAddTask, addTask, onDelete, onToggle }) => {
     return (
         <>
             {showAddTask ? <AddTask addTask={addTask} /> : ''}
-            {tasks.length > 0 ? tasks.map((task) => <Task
-                key={task.id}
+            {tasks.length > 0 ? tasks.map((task, index) => <Task
+                key={index}
                 task={task}
                 onDelete={onDelete}
                 onToggle={onToggle}
